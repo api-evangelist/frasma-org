@@ -72,15 +72,109 @@ Frasma is an Italian company that automates business processes and document work
 
 Everything profiled for Frasma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/frasma-org/](https://apis.io/providers/frasma-org/)** — or go straight to one of the APIs or properties below.
 
+### APIs (5)
+
+- [Frasma Chat API](https://apis.io/apis/frasma-org/frasma-org-chat-api/) — The Chat API from Frasma — 1 operation(s) for chat.
+- [Frasma Conversations API](https://apis.io/apis/frasma-org/frasma-org-conversations-api/) — The Conversations API from Frasma — 1 operation(s) for conversations.
+- [Frasma MCP API](https://apis.io/apis/frasma-org/frasma-org-mcp-api/) — The Mcp API from Frasma — 1 operation(s) for mcp.
+- [Frasma Request Process Assessment API](https://apis.io/apis/frasma-org/frasma-org-request-process-assessment-api/) — The Request Process Assessment API from Frasma — 1 operation(s) for request process assessment.
+- [Frasma Status API](https://apis.io/apis/frasma-org/frasma-org-status-api/) — The Status API from Frasma — 1 operation(s) for status.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Frasma Agentic Access](https://apis.io/agentic-access/frasma-org/frasma-org-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ChatRequest](https://apis.io/schemas/frasma-org/frasma-org-chat-request/)
+- [ChatResponse](https://apis.io/schemas/frasma-org/frasma-org-chat-response/)
+- [ConversationResponse](https://apis.io/schemas/frasma-org/frasma-org-conversation-response/)
+- [ProcessAssessmentRequest](https://apis.io/schemas/frasma-org/frasma-org-process-assessment-request/)
+- [StatusResponse](https://apis.io/schemas/frasma-org/frasma-org-status-response/)
+- [TimeoutResponse](https://apis.io/schemas/frasma-org/frasma-org-timeout-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Frasma Org Context](https://apis.io/jsonld/frasma-org/frasma-org-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Frasma API Rules](https://apis.io/rules/frasma-org/frasma-org-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Frasma Domain Security](https://apis.io/security/frasma-org/frasma-org-domain-security/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://frasma.org/)
+- [Documentation](https://app.frasma.org/docs)
+- [Getting started](https://app.frasma.org/docs/getting-started)
+- [Support](https://app.frasma.org/support)
+- [Blog](https://www.frasma.org/blog)
+- [Terms of service](https://app.frasma.org/terms)
+- [Privacy policy](https://www.frasma.org/privacy)
+- [GitHub](https://github.com/francemazzi)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/frasma-org/](https://apis.io/providers/frasma-org/).
+**Kin Score 42.4** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 49.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/frasma-org/](https://apis.io/providers/frasma-org/).
 
 ## How this profile is made
 
